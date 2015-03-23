@@ -1,5 +1,10 @@
 #import "Atom.h"
 
+@interface Atom()
+
+
+@end
+
 @implementation Atom
 
 @synthesize protons;
@@ -13,6 +18,8 @@
 	{
 		chemicalElement = @"None";
 	}
+
+	val = 0;
 
 	return self;
 }
