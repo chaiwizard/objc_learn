@@ -8,12 +8,16 @@ int main(int argc, char *argv[])
 	Person *mikey = [[Person alloc] init];
 
 	//Give the instance variables interesting values using setters
-	[mikey setWeight: 96];
-	[mikey setHeight: 1.8];
+	//[mikey setWeight: 96];
+	//[mikey setHeight: 1.8];
+	mikey.weight = 96;
+	mikey.height = 1.8;
 
 	//Log the instance variables using getters
-	float height = [mikey height];
-	int weight = [mikey weight];
+	//float height = [mikey height];
+	//int weight = [mikey weight];
+	float height = mikey.height;
+	int weight = mikey.weight;
 	NSLog(@"mikey is %.2f meters tall and weight %d kilograms",height,weight);
 
 	//Log some values using custom methods
