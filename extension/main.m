@@ -1,3 +1,8 @@
+/**
+ *Compile with :
+ * clang -framework Foundation *.m -o app
+ */
+
 #import "test.h"
 
 int main(int argc, char *argv[])

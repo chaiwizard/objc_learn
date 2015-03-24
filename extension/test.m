@@ -1,7 +1,10 @@
 #import "test.h"
 
-@interface Test ()
-int val;
+@interface Test () {
+	int val;
+}
+
+- (void) print;
 @end
 
 @implementation Test
@@ -11,7 +14,7 @@ int val;
 	if(self = [self init]){
 		val = data;
 	}
-
+	[self print];
 	return self;
 }
 
@@ -23,7 +26,12 @@ int val;
 - (void) setVal : (int) data
 {
 	val = data;
+	[self print];
 }
 
+- (void) print
+{
+	NSLog(@"print: val=%d",val);
+}
 
 @end
