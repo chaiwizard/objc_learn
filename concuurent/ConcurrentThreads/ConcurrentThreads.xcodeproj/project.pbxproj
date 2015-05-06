@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64481E1A1AF9EA2100AAEEBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64481E191AF9EA2100AAEEBB /* Foundation.framework */; };
+		64481E1D1AF9EA2100AAEEBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64481E1C1AF9EA2100AAEEBB /* main.m */; };
+		64481E211AF9EA2100AAEEBB /* ConcurrentThreads.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64481E201AF9EA2100AAEEBB /* ConcurrentThreads.1 */; };
+		64481E291AF9EA4000AAEEBB /* ConcurrentProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64481E281AF9EA4000AAEEBB /* ConcurrentProcessor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64481E131AF9EA2100AAEEBB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				64481E211AF9EA2100AAEEBB /* ConcurrentThreads.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64481E151AF9EA2100AAEEBB /* ConcurrentThreads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConcurrentThreads; sourceTree = BUILT_PRODUCTS_DIR; };
+		64481E191AF9EA2100AAEEBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64481E1C1AF9EA2100AAEEBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64481E1F1AF9EA2100AAEEBB /* ConcurrentThreads-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConcurrentThreads-Prefix.pch"; sourceTree = "<group>"; };
+		64481E201AF9EA2100AAEEBB /* ConcurrentThreads.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ConcurrentThreads.1; sourceTree = "<group>"; };
+		64481E271AF9EA4000AAEEBB /* ConcurrentProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentProcessor.h; sourceTree = "<group>"; };
+		64481E281AF9EA4000AAEEBB /* ConcurrentProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentProcessor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64481E121AF9EA2100AAEEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64481E1A1AF9EA2100AAEEBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64481E0A1AF9EA2100AAEEBB = {
+			isa = PBXGroup;
+			children = (
+				64481E1B1AF9EA2100AAEEBB /* ConcurrentThreads */,
+				64481E181AF9EA2100AAEEBB /* Frameworks */,
+				64481E161AF9EA2100AAEEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64481E161AF9EA2100AAEEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64481E151AF9EA2100AAEEBB /* ConcurrentThreads */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64481E181AF9EA2100AAEEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64481E191AF9EA2100AAEEBB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64481E1B1AF9EA2100AAEEBB /* ConcurrentThreads */ = {
+			isa = PBXGroup;
+			children = (
+				64481E1C1AF9EA2100AAEEBB /* main.m */,
+				64481E271AF9EA4000AAEEBB /* ConcurrentProcessor.h */,
+				64481E281AF9EA4000AAEEBB /* ConcurrentProcessor.m */,
+				64481E201AF9EA2100AAEEBB /* ConcurrentThreads.1 */,
+				64481E1E1AF9EA2100AAEEBB /* Supporting Files */,
+			);
+			path = ConcurrentThreads;
+			sourceTree = "<group>";
+		};
+		64481E1E1AF9EA2100AAEEBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64481E1F1AF9EA2100AAEEBB /* ConcurrentThreads-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64481E141AF9EA2100AAEEBB /* ConcurrentThreads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64481E241AF9EA2100AAEEBB /* Build configuration list for PBXNativeTarget "ConcurrentThreads" */;
+			buildPhases = (
+				64481E111AF9EA2100AAEEBB /* Sources */,
+				64481E121AF9EA2100AAEEBB /* Frameworks */,
+				64481E131AF9EA2100AAEEBB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcurrentThreads;
+			productName = ConcurrentThreads;
+			productReference = 64481E151AF9EA2100AAEEBB /* ConcurrentThreads */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64481E0C1AF9EA2100AAEEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 64481E0F1AF9EA2100AAEEBB /* Build configuration list for PBXProject "ConcurrentThreads" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64481E0A1AF9EA2100AAEEBB;
+			productRefGroup = 64481E161AF9EA2100AAEEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64481E141AF9EA2100AAEEBB /* ConcurrentThreads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64481E111AF9EA2100AAEEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64481E1D1AF9EA2100AAEEBB /* main.m in Sources */,
+				64481E291AF9EA4000AAEEBB /* ConcurrentProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64481E221AF9EA2100AAEEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64481E231AF9EA2100AAEEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64481E251AF9EA2100AAEEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcurrentThreads/ConcurrentThreads-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64481E261AF9EA2100AAEEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcurrentThreads/ConcurrentThreads-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64481E0F1AF9EA2100AAEEBB /* Build configuration list for PBXProject "ConcurrentThreads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64481E221AF9EA2100AAEEBB /* Debug */,
+				64481E231AF9EA2100AAEEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64481E241AF9EA2100AAEEBB /* Build configuration list for PBXNativeTarget "ConcurrentThreads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64481E251AF9EA2100AAEEBB /* Debug */,
+				64481E261AF9EA2100AAEEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64481E0C1AF9EA2100AAEEBB /* Project object */;
+}
