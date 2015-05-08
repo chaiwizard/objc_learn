@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64AF704B1AC50431008D3693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AF704A1AC50431008D3693 /* Foundation.framework */; };
+		64AF704E1AC50431008D3693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF704D1AC50431008D3693 /* main.m */; };
+		64AF70521AC50431008D3693 /* ARCOrders.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64AF70511AC50431008D3693 /* ARCOrders.1 */; };
+		64AF705A1AC50446008D3693 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF70591AC50446008D3693 /* Address.m */; };
+		64AF705D1AC505C7008D3693 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF705C1AC505C7008D3693 /* OrderItem.m */; };
+		64AF70601AC5072C008D3693 /* ObjectEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF705F1AC5072C008D3693 /* ObjectEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64AF70441AC50431008D3693 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				64AF70521AC50431008D3693 /* ARCOrders.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64AF70461AC50431008D3693 /* ARCOrders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ARCOrders; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AF704A1AC50431008D3693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64AF704D1AC50431008D3693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64AF70501AC50431008D3693 /* ARCOrders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARCOrders-Prefix.pch"; sourceTree = "<group>"; };
+		64AF70511AC50431008D3693 /* ARCOrders.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ARCOrders.1; sourceTree = "<group>"; };
+		64AF70581AC50446008D3693 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Address.h; path = ARCOrders/Address.h; sourceTree = "<group>"; };
+		64AF70591AC50446008D3693 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = ARCOrders/Address.m; sourceTree = "<group>"; };
+		64AF705B1AC505C7008D3693 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderItem.h; path = ARCOrders/OrderItem.h; sourceTree = "<group>"; };
+		64AF705C1AC505C7008D3693 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderItem.m; path = ARCOrders/OrderItem.m; sourceTree = "<group>"; };
+		64AF705E1AC5072C008D3693 /* ObjectEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectEntry.h; sourceTree = "<group>"; };
+		64AF705F1AC5072C008D3693 /* ObjectEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64AF70431AC50431008D3693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AF704B1AC50431008D3693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64AF703B1AC50431008D3693 = {
+			isa = PBXGroup;
+			children = (
+				64AF70581AC50446008D3693 /* Address.h */,
+				64AF705B1AC505C7008D3693 /* OrderItem.h */,
+				64AF705C1AC505C7008D3693 /* OrderItem.m */,
+				64AF705E1AC5072C008D3693 /* ObjectEntry.h */,
+				64AF705F1AC5072C008D3693 /* ObjectEntry.m */,
+				64AF70591AC50446008D3693 /* Address.m */,
+				64AF704C1AC50431008D3693 /* ARCOrders */,
+				64AF70491AC50431008D3693 /* Frameworks */,
+				64AF70471AC50431008D3693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64AF70471AC50431008D3693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64AF70461AC50431008D3693 /* ARCOrders */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64AF70491AC50431008D3693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64AF704A1AC50431008D3693 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64AF704C1AC50431008D3693 /* ARCOrders */ = {
+			isa = PBXGroup;
+			children = (
+				64AF704D1AC50431008D3693 /* main.m */,
+				64AF70511AC50431008D3693 /* ARCOrders.1 */,
+				64AF704F1AC50431008D3693 /* Supporting Files */,
+			);
+			path = ARCOrders;
+			sourceTree = "<group>";
+		};
+		64AF704F1AC50431008D3693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64AF70501AC50431008D3693 /* ARCOrders-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64AF70451AC50431008D3693 /* ARCOrders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AF70551AC50431008D3693 /* Build configuration list for PBXNativeTarget "ARCOrders" */;
+			buildPhases = (
+				64AF70421AC50431008D3693 /* Sources */,
+				64AF70431AC50431008D3693 /* Frameworks */,
+				64AF70441AC50431008D3693 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCOrders;
+			productName = ARCOrders;
+			productReference = 64AF70461AC50431008D3693 /* ARCOrders */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64AF703D1AC50431008D3693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 64AF70401AC50431008D3693 /* Build configuration list for PBXProject "ARCOrders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64AF703B1AC50431008D3693;
+			productRefGroup = 64AF70471AC50431008D3693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64AF70451AC50431008D3693 /* ARCOrders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64AF70421AC50431008D3693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AF704E1AC50431008D3693 /* main.m in Sources */,
+				64AF705A1AC50446008D3693 /* Address.m in Sources */,
+				64AF705D1AC505C7008D3693 /* OrderItem.m in Sources */,
+				64AF70601AC5072C008D3693 /* ObjectEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64AF70531AC50431008D3693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64AF70541AC50431008D3693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64AF70561AC50431008D3693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCOrders/ARCOrders-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64AF70571AC50431008D3693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCOrders/ARCOrders-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64AF70401AC50431008D3693 /* Build configuration list for PBXProject "ARCOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AF70531AC50431008D3693 /* Debug */,
+				64AF70541AC50431008D3693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AF70551AC50431008D3693 /* Build configuration list for PBXNativeTarget "ARCOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AF70561AC50431008D3693 /* Debug */,
+				64AF70571AC50431008D3693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64AF703D1AC50431008D3693 /* Project object */;
+}

@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64AF70251AC4FB53008D3693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AF70241AC4FB53008D3693 /* Foundation.framework */; };
+		64AF70281AC4FB53008D3693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF70271AC4FB53008D3693 /* main.m */; };
+		64AF702C1AC4FB53008D3693 /* MRROrders.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64AF702B1AC4FB53008D3693 /* MRROrders.1 */; };
+		64AF70341AC4FB8E008D3693 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF70331AC4FB8E008D3693 /* Address.m */; };
+		64AF70371AC4FC28008D3693 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF70361AC4FC28008D3693 /* OrderItem.m */; };
+		64AF703A1AC4FD6C008D3693 /* ObjectEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AF70391AC4FD6C008D3693 /* ObjectEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64AF701E1AC4FB53008D3693 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				64AF702C1AC4FB53008D3693 /* MRROrders.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64AF70201AC4FB53008D3693 /* MRROrders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MRROrders; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AF70241AC4FB53008D3693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64AF70271AC4FB53008D3693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64AF702A1AC4FB53008D3693 /* MRROrders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRROrders-Prefix.pch"; sourceTree = "<group>"; };
+		64AF702B1AC4FB53008D3693 /* MRROrders.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MRROrders.1; sourceTree = "<group>"; };
+		64AF70321AC4FB8E008D3693 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		64AF70331AC4FB8E008D3693 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		64AF70351AC4FC28008D3693 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItem.h; sourceTree = "<group>"; };
+		64AF70361AC4FC28008D3693 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
+		64AF70381AC4FD6C008D3693 /* ObjectEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectEntry.h; sourceTree = "<group>"; };
+		64AF70391AC4FD6C008D3693 /* ObjectEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64AF701D1AC4FB53008D3693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AF70251AC4FB53008D3693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64AF70151AC4FB53008D3693 = {
+			isa = PBXGroup;
+			children = (
+				64AF70261AC4FB53008D3693 /* MRROrders */,
+				64AF70231AC4FB53008D3693 /* Frameworks */,
+				64AF70211AC4FB53008D3693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64AF70211AC4FB53008D3693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64AF70201AC4FB53008D3693 /* MRROrders */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64AF70231AC4FB53008D3693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64AF70241AC4FB53008D3693 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64AF70261AC4FB53008D3693 /* MRROrders */ = {
+			isa = PBXGroup;
+			children = (
+				64AF70271AC4FB53008D3693 /* main.m */,
+				64AF70321AC4FB8E008D3693 /* Address.h */,
+				64AF70331AC4FB8E008D3693 /* Address.m */,
+				64AF70351AC4FC28008D3693 /* OrderItem.h */,
+				64AF70361AC4FC28008D3693 /* OrderItem.m */,
+				64AF70381AC4FD6C008D3693 /* ObjectEntry.h */,
+				64AF70391AC4FD6C008D3693 /* ObjectEntry.m */,
+				64AF702B1AC4FB53008D3693 /* MRROrders.1 */,
+				64AF70291AC4FB53008D3693 /* Supporting Files */,
+			);
+			path = MRROrders;
+			sourceTree = "<group>";
+		};
+		64AF70291AC4FB53008D3693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64AF702A1AC4FB53008D3693 /* MRROrders-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64AF701F1AC4FB53008D3693 /* MRROrders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AF702F1AC4FB53008D3693 /* Build configuration list for PBXNativeTarget "MRROrders" */;
+			buildPhases = (
+				64AF701C1AC4FB53008D3693 /* Sources */,
+				64AF701D1AC4FB53008D3693 /* Frameworks */,
+				64AF701E1AC4FB53008D3693 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRROrders;
+			productName = MRROrders;
+			productReference = 64AF70201AC4FB53008D3693 /* MRROrders */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64AF70171AC4FB53008D3693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 64AF701A1AC4FB53008D3693 /* Build configuration list for PBXProject "MRROrders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64AF70151AC4FB53008D3693;
+			productRefGroup = 64AF70211AC4FB53008D3693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64AF701F1AC4FB53008D3693 /* MRROrders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64AF701C1AC4FB53008D3693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AF70281AC4FB53008D3693 /* main.m in Sources */,
+				64AF70341AC4FB8E008D3693 /* Address.m in Sources */,
+				64AF70371AC4FC28008D3693 /* OrderItem.m in Sources */,
+				64AF703A1AC4FD6C008D3693 /* ObjectEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64AF702D1AC4FB53008D3693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64AF702E1AC4FB53008D3693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64AF70301AC4FB53008D3693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRROrders/MRROrders-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64AF70311AC4FB53008D3693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRROrders/MRROrders-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64AF701A1AC4FB53008D3693 /* Build configuration list for PBXProject "MRROrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AF702D1AC4FB53008D3693 /* Debug */,
+				64AF702E1AC4FB53008D3693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AF702F1AC4FB53008D3693 /* Build configuration list for PBXNativeTarget "MRROrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AF70301AC4FB53008D3693 /* Debug */,
+				64AF70311AC4FB53008D3693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64AF70171AC4FB53008D3693 /* Project object */;
+}
